@@ -379,11 +379,29 @@ background-color: white;
 
 }
 
+.funny-content{
+   
+    max-width: 90%;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+}
+.funny-videos-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
 
+.funny-videos{
+    width: calc((100% - 2rem)/2);
+}
+.funny-videos-main-container{
+    padding: 3rem;
+}
 
+.funny-videos p{
 
-
-
+    width: 15rem;
+}
 
 
 
