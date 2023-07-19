@@ -24,10 +24,12 @@ body{
     font-weight: 600;
     cursor: pointer;
     border: 4px solid rgba(255, 255, 255, 0);
+    margin-bottom: 2rem;
 }
 
 .btn-primary:hover{
     border: 4px solid #a5126a;
+    color: #522b06;
 }
 
 .common-h3{
@@ -235,12 +237,12 @@ line-height: normal;
     margin-top: 2rem;
 }
 .funny-videos{
-    max-width: 17rem;
+    cursor: pointer;
    
 }
 
 .funny-videos img{
-    border: 4px solid rgba(255, 0, 0, 0);
+   
     border-radius: 2rem;
 }
 .instant-container{
@@ -333,15 +335,55 @@ footer p{
     margin-top: 3rem;
 }
 
-
-.funny-videos:hover .vakka{
+.vakka{
+    display: inline-block;
+    border: 4px solid rgba(255, 0, 0, 0);
+    border-radius: 2rem;
     background: url(../images/funny-11.png);
+    background-repeat: no-repeat;
+
+}
+.vakka-2{
+    display: inline-block;
+    background: url(../images/funny-22.png);
+    background-repeat: no-repeat;
+    border-radius: 2rem;
+    border: 4px solid rgba(255, 0, 0, 0);
+}
+
+.vakka-3{
+    display: inline-block;
+    background: url(../images/funny-44.png);
+    background-repeat: no-repeat;
+    border-radius: 2rem;
+    border: 4px solid rgba(255, 0, 0, 0);
+}
+
+.vakka-4{
+    display: inline-block;
+    background: url(../images/funny-33.png);
+    background-repeat: no-repeat;
+    border-radius: 2rem;
+    border: 4px solid rgba(255, 0, 0, 0);
+}
+
+
+.funny-videos:hover .vakka,
+.funny-videos:hover .vakka-2,
+.funny-videos:hover .vakka-3,
+.funny-videos:hover .vakka-4{
+   
+    border: 4px solid #fc3c9c;
+    
 }
 .funny-videos:hover img{
     visibility: hidden;
+    
 }
 
-
+.funny-videos p{
+    max-width: 300px;
+}
 
 
 
