@@ -480,7 +480,9 @@ footer ul{
     grid-template-columns: repeat(2,1fr);
 }
 
-
+body{
+    overflow-x: hidden;
+}
 
 }
 
