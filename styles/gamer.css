@@ -298,15 +298,40 @@ font-weight: 600;
     width: 3.6rem;
 }
 
+footer{
+    background-color: #0B0223;
+    padding: 8rem;
+}
 
+footer h3{
+    color: white;
+}
 
+footer ul{
+    display: flex;
+    gap: 3.8rem;
+    justify-content: center;
+    padding-top: 3rem;
+    align-items: center;
+}
 
+footer li{
+    list-style: none;
+}
+footer a{
+     text-decoration: none;
+}
+.footer-nav-1 a{
+   
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
 
+}
 
-
-
-
-
+footer p{
+    margin-top: 3rem;
+}
 
 
 
@@ -448,9 +473,20 @@ background-color: white;
     gap: .5rem;
 }
 
+footer ul{
+    margin: auto;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3,1fr);
+}
+.footer-nav-3 ul{
+    grid-template-columns: repeat(2,1fr);
+}
 
-
-
+footer{
+    padding: 1rem 4rem;
+    width: 100%;
+}
 
 }
 
