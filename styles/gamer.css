@@ -10,6 +10,18 @@ body{
     font-family: 'Work Sans';
     width: 100vw;
 }
+
+.btn-primary{
+    padding: 1.2rem 2.5rem;
+    color: white;
+    border-radius: 2rem;
+    background-color: #FF42A5;
+    margin:1.5rem .5rem ;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
 .title-color{
 color: #FF42A5;
 }
@@ -77,13 +89,48 @@ text-decoration: none;
     list-style: none;
 }
 
+.banner{
+    padding: 0px 15rem;
+    background-color: #fefdffc5;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.banner-content h3{
+    color: #0B0223;
+text-align: center;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
 
 
+/* Copied this part from figma */
+.banner-content h2{
+ background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: center;
+font-size: 6rem;
+font-weight: 800;
+text-transform: uppercase;
+}
 
 
+.banner-content ul{
+    color: #534C64;
+font-size: 1.2rem;
+font-weight: 500;
+}
 
-
-
+.banner-img img{
+    width: 40rem;
+}
 
 
 
