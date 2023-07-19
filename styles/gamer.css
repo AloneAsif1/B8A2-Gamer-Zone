@@ -226,6 +226,7 @@ line-height: normal;
 
 .funny-videos-main-container{
     padding: 3rem 15rem;
+    /* display: none; */
 }
 .funny-videos-container{
     display: flex;
@@ -321,16 +322,17 @@ background-color: white;
     flex-direction: column;
     gap: 3rem;
     max-width: 95%;
+    margin: auto;
 }
 .funny-videos-main-container{
     padding: 1rem;
 }
 
-.funnt-content{
-    display: flex;
-    flex-direction: column;
-    max-width: 95%;
+.funny-content{
+   
+    max-width: 90%;
     flex-wrap: wrap;
+    /* border: 2px solid red; */
 }
 .funny-content-h3{
     font-size: 2rem;
