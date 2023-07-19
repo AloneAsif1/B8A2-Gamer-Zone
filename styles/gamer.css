@@ -334,8 +334,12 @@ footer p{
 }
 
 
-
-
+.funny-videos:hover .vakka{
+    background: url(../images/funny-11.png);
+}
+.funny-videos:hover img{
+    visibility: hidden;
+}
 
 
 
@@ -436,10 +440,12 @@ background-color: white;
 }
 
 .instant-content{
-    width: 100%;
+    width: 90%;
     position: static;
+    padding: 4rem;
     padding-top: 1rem;
     padding-bottom: 1.5rem;
+   
 }
  
 .instant-img{
