@@ -453,6 +453,15 @@ background-color: white;
  
 .gamer-content h4{
     font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.gamer-content h3,
+.gamer-content p{
+    text-align: center;
+}
+.gamer-button{
+    justify-content: center;
 }
 .funny-videos-container{
     flex-direction: column;
